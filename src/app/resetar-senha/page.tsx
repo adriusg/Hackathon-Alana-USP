@@ -8,7 +8,7 @@ import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import toast from 'react-hot-toast'
 
-export default function ResetarSenhaPage() {
+function ResetarSenhaInner() {
   const router = useRouter()
   const searchParams = useSearchParams()
   const tokenFromUrl = searchParams.get('token') || ''
@@ -64,3 +64,12 @@ export default function ResetarSenhaPage() {
     </div>
   )
 }
+
+export default function ResetarSenhaPage() {
+  return (
+    <React.Suspense fallback={null}>
+      <ResetarSenhaInner />
+    </React.Suspense>
+  )
+}
+

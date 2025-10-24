@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 
-export default function CadastroRapidoPage() {
+function CadastroRapidoInner() {
   const router = useRouter()
   const params = useSearchParams()
   const initialIdentifier = (params.get('identifier') || '').trim()
@@ -121,3 +121,12 @@ export default function CadastroRapidoPage() {
     </div>
   )
 }
+
+export default function CadastroRapidoPage() {
+  return (
+    <React.Suspense fallback={null}>
+      <CadastroRapidoInner />
+    </React.Suspense>
+  )
+}
+
