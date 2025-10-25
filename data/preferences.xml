@@ -1,0 +1,14 @@
+<preferences>
+  <accessibility>
+    <user>
+      <user_id>1</user_id>
+      <ttsEnabled>false</ttsEnabled>
+      <fontSize>16</fontSize>
+      <highContrast>false</highContrast>
+      <alternativeFont>false</alternativeFont>
+      <keyboardNavigation>true</keyboardNavigation>
+      <focusVisible>true</focusVisible>
+      <reduceMotion>false</reduceMotion>
+    </user>
+  </accessibility>
+</preferences>

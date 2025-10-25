@@ -1,0 +1,20 @@
+<notifications>
+  <items>
+    <notification>
+      <id>1</id>
+      <category>Eventos</category>
+      <title>Novo evento cadastrado</title>
+      <body>Reunião de Pais em 30/10</body>
+      <created_at>2025-10-20T12:00:00.000Z</created_at>
+      <read>false</read>
+      <user_id>1</user_id>
+    </notification>
+  </items>
+  <preferences>
+    <default>
+      <in_app>true</in_app>
+      <email>false</email>
+      <sms>false</sms>
+    </default>
+  </preferences>
+</notifications>

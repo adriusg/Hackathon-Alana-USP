@@ -1,0 +1,18 @@
+<events>
+  <items>
+    <event>
+      <id>1</id>
+      <title>Reunião de Pais</title>
+      <category>escola</category>
+      <start_datetime>2025-10-30T18:00:00.000Z</start_datetime>
+      <end_datetime>2025-10-30T19:00:00.000Z</end_datetime>
+      <location>Sala Principal</location>
+      <description>Reunião introdutória</description>
+      <allow_guests>false</allow_guests>
+      <max_attendees></max_attendees>
+      <created_by>1</created_by>
+    </event>
+  </items>
+  <rsvps>
+  </rsvps>
+</events>
