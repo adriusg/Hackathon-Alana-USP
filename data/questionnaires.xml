@@ -1,0 +1,24 @@
+<questionnaires>
+  <items>
+    <questionnaire>
+      <id>1</id>
+      <title>Clima Escolar - Alunos</title>
+      <type>students</type>
+      <active>true</active>
+      <questions>
+        <question>
+          <id>101</id>
+          <text>Como você avalia a segurança na escola?</text>
+          <kind>scale</kind>
+        </question>
+        <question>
+          <id>102</id>
+          <text>Relate alguma situação positiva recente.</text>
+          <kind>text</kind>
+        </question>
+      </questions>
+    </questionnaire>
+  </items>
+  <responses>
+  </responses>
+</questionnaires>

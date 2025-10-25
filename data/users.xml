@@ -1,0 +1,37 @@
+<users>
+  <user>
+    <id>1</id>
+    <email>gestor@demo.com</email>
+    <passwordHash>8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92</passwordHash>
+    <roles>manager</roles>
+    <full_name>Gestor Demo</full_name>
+  </user>
+  <user>
+    <id>2</id>
+    <email>prof@demo.com</email>
+    <passwordHash>8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92</passwordHash>
+    <roles>teacher</roles>
+    <full_name>Professor Demo</full_name>
+  </user>
+  <user>
+    <id>3</id>
+    <email>func@demo.com</email>
+    <passwordHash>8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92</passwordHash>
+    <roles>staff</roles>
+    <full_name>Funcionário Demo</full_name>
+  </user>
+  <user>
+    <id>4</id>
+    <email>aluno@demo.com</email>
+    <passwordHash>8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92</passwordHash>
+    <roles>student</roles>
+    <full_name>Aluno Demo</full_name>
+  </user>
+  <user>
+    <id>5</id>
+    <email>responsavel@demo.com</email>
+    <passwordHash>8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92</passwordHash>
+    <roles>guardian</roles>
+    <full_name>Responsável Demo</full_name>
+  </user>
+</users>

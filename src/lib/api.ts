@@ -1,6 +1,6 @@
 import axios, { AxiosInstance, AxiosError } from 'axios'
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'
+const API_URL = process.env.NEXT_PUBLIC_API_URL || ''
 
 class ApiClient {
   private client: AxiosInstance
@@ -34,19 +34,9 @@ class ApiClient {
           const refreshToken = localStorage.getItem('refresh_token')
           if (refreshToken) {
             try {
-              const { data } = await axios.post(`${API_URL}/api/v1/auth/refresh`, {
-                refresh_token: refreshToken,
-              })
-              localStorage.setItem('access_token', data.access_token)
-              localStorage.setItem('refresh_token', data.refresh_token)
-              
-              // Retry original request
-              if (error.config) {
-                error.config.headers.Authorization = `Bearer ${data.access_token}`
-                return axios(error.config)
-              }
+              // Demo mode: refresh token não implementado; apenas rejeita
+              return Promise.reject(error)
             } catch (refreshError) {
-              // Refresh failed: não desloga automaticamente; mantém sessão até usuário clicar em "Sair"
               return Promise.reject(error)
             }
           } else {
